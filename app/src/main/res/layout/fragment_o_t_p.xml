@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    tools:context=".presentation.OTPFragment"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:padding = "20dp"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Enter The OTP Here :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/otpBox1"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/headerText"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/otpBox2"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext"
+        android:layout_toEndOf="@id/otpBox1"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/headerText"
+        />
+    <EditText
+        android:id="@+id/otpBox3"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext"
+        android:layout_toEndOf="@id/otpBox2"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/headerText"
+        />
+    <EditText
+        android:id="@+id/otpBox4"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext"
+        android:layout_toEndOf="@id/otpBox3"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/headerText"
+        />
+    <EditText
+        android:id="@+id/otpBox5"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext"
+        android:layout_toEndOf="@id/otpBox4"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/headerText"
+        />
+
+    <EditText
+        android:id="@+id/otpBox6"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/headerText"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/otpBox5"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

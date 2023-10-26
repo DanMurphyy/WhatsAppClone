@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_confirm.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/background_message_edit_box.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/background_message_layout.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/background_send_message_button.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_camera.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_contacts_fab_button.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.128" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24722222222222223" />
+        <entry key="app/src/main/res/layout/chat_card.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/contact_card.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_call.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_contacts.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/layout/fragment_home_page.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_message.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_o_t_p.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/layout/fragment_status.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/message_image_receiver.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/message_image_sender.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/message_text_receiver.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/message_text_sender.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/contact_fragment_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
